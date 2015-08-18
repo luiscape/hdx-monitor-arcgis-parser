@@ -1,0 +1,28 @@
+{
+  "name": "hdx-monitor-arcgis-parser",
+  "version": "0.1.0",
+  "description": "ArgGIS parser to GeoJSON.",
+  "main": "server.js",
+  "scripts": {
+    "test": "make tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/luiscape/hdx-monitor-arcgis-parser.git"
+  },
+  "keywords": [
+    "geojson",
+    "argis",
+    "parser"
+  ],
+  "author": "Luis Capelo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luiscape/hdx-monitor-arcgis-parser/issues"
+  },
+  "homepage": "https://github.com/luiscape/hdx-monitor-arcgis-parser#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "terraformer-arcgis-parser": "^1.0.4"
+  }
+}
